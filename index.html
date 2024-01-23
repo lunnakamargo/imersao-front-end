@@ -14,55 +14,74 @@
 </head>
 <body>
     <div class="sidebar">
-        <nav class="sidebar_navigation">
-            <div class="logo">
+        <nav class="sidebar__navigation">
+            <div class="sidebar__navigation__logo">
                 <a href="">
                     <img src="./assets/icons/logo-spotify.png" alt="logo do spotify">
                 </a>
             </div>
-            <div>
-                <ul>
-                    <li>
-                        <a href="">
-                            <span class="fa fa-home"></span>
-                            <span>Início</span>
-                        </a>
-                    </li>
-                    <li>
-                        <a href="">
-                            <span class="fa fa-search"></span>
-                            <span>Buscar</span>
-                        </a>
-                    </li>
-                </ul>
-            </div>
+            <ul>
+                <li>
+                    <a href="">
+                        <span class="fa fa-home"></span>
+                        <span>Início</span>
+                    </a>
+                </li>
+                <li>
+                    <a href="">
+                        <span class="fa fa-search"></span>
+                        <span>Buscar</span>
+                    </a>
+                </li>
+            </ul>
         </nav>
-        <nav class="sidebar_biblioteca">
-            <div class="biblioteca">
-                <span class="fa fa-folder"></span>
-                <span>Sua Biblioteca</span>
+        <div class="sidebar__library">
+            <div class="sidebar__library__content">
+                <button class="sidebar__library__button">
+                    <span class="fa fas fa-book"></span>
+                    <span>Sua Biblioteca</span>
+                </button>
                 <span class="fa fa-plus"></span>
             </div>
-            <div class="biblioteca_box">
-                <p class="titulo_box">Crie sua primeira playlist</p>
-                <p>É fácil, vamos te ajudar.</p>
-                <a href="">
-                    <button>
+            <section class="section-playlist">
+                <div class="section-playlist__content">
+                    <span class="text title">Crie sua primeira playlist</span>
+                    <span class="text subtitle">É fácil, vamos te ajudar.</span>
+                    <button class="section-playlist__button">
                         Criar playlist
                     </button>
-                </a>
-            </div>
-            <div class="biblioteca_box">
-                <p class="titulo_box">Que tal seguir um podcast novo?</p>
-                <p>Avisaremos você sobre novos episódios.</p>
-                <a href="">
-                    <button>
+                </div>
+            </section>
+            <section class="section-playlist">
+                <div class="section-playlist__content">
+                    <span class="text title">Que tal seguir um podcast novo?</span>
+                    <span class="text subtitle">Avisaremos você sobre novos episódios.</span>
+                    <button class="section-playlist__button">
                         Explore podcasts
                     </button>
-                </a>
+                </div>
+            </section>
+            <div class="sidebar__cookies">
+                <a href="">Cookies</a>
             </div>
-        </nav>
-        
+            <div class="sidebar__languages">
+                <button class="sidebar__languages__button">
+                    <span class="fa fa-globe"></span>
+                    <span>Português do Brasil</span>
+                </button>
+            </div>
+        </div>
     </div>
 </body>
+<footer>
+    <div class="footer__content">
+        <div class="footer__content__text">
+            <span class="title">Testar o Premium de graça</span>
+            <span class="subtitle">Inscreva-se para curtir música ilimitada e podcasts só com alguns anúncios. Não precisa de cartão de crédito.</span>
+        </div>
+        <button class="footer__button">
+            Inscreva-se grátis
+        </button>
+    </div>
+</footer>
 </html>
