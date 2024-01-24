@@ -1,5 +1,6 @@
 body {
     background-color: #000;
+    font-family: var(--font-dm-sans);
 }
 
 .sidebar {
@@ -9,6 +10,8 @@ body {
     bottom: 0;
     padding: 12px;
     width: 300px;
+    overflow-y: auto;
+    height: calc(100vh - 80px);
 }
 
 .sidebar__navigation {
@@ -43,7 +46,6 @@ body {
     text-decoration: none;
     font-weight: 600;
     font-size: 14px;
-    font-family: "DM Sans", sans-serif;
 }
 
 .sidebar__library {
@@ -72,7 +74,6 @@ body {
     border: 0;
     font-size: 14px;
     font-weight: 700;
-    font-family: "DM Sans", sans-serif;
     text-align: center;
     text-decoration: none;
     text-transform: 0;
@@ -114,7 +115,6 @@ body {
 .section-playlist__content .text {
     padding-bottom: 14px;
     color: #fff;
-    font-family: "DM Sans", sans-serif;
 }
 
 .section-playlist__content .title {
@@ -139,7 +139,6 @@ body {
     color: #000;
     text-decoration: none;
     font-size: 12px;
-    font-family: "DM Sans", sans-serif;
     font-weight: 700;
 }
 
@@ -190,10 +189,11 @@ body {
 footer{
     position: fixed;
     bottom: 0;
+    left: 0;
+    right: 0;
     background-image: linear-gradient(to right, #ad2a98 , #6383e1);
     width: 100%;
     padding: 10px 0px;
-    font-family: "DM Sans", sans-serif;
     color:#fff;
     font-size: 14px;
 }
@@ -202,12 +202,14 @@ footer .footer__content {
     display: flex;
     justify-content: space-between;
     flex-direction: row;
+    flex-shrink: 0;
 }
 
 .footer__content .footer__content__text {
     display: flex;
     flex-direction: column;
     padding: 0 20px;
+    
 }
 
 .footer__content__text span {
