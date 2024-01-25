@@ -1,0 +1,140 @@
+body {
+    background-color: #000;
+    font-family: var(--font-dm-sans);
+}
+
+.main-container {
+    max-width: 80vw;
+    height: 100vh;
+    margin-left: 320px;
+    margin-right: 56px;
+}
+
+.header__navigation,
+.main-body {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 16px;
+    margin: 10px;
+    border-radius: 8px;
+    background: linear-gradient(to top, #121212 , #090909);
+    width: 100%;
+}
+
+.header__navigation .navigation {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.header__navigation .navigation .arrow-left {
+    margin-right: 1.25rem;
+}
+
+.arrow-left,
+.arrow-right {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 32px;
+    height: 32px;
+    background: var(--bg-icon);
+    background-color: var(--bg-arrow-color);
+    border-radius: 50%;
+    border: none;
+    cursor: pointer;
+}
+
+.header__login {
+    display: flex;
+    align-items: center;
+}
+
+.header__login .subscribe {
+    color: #a7a7a7;
+    font-size: 16px;
+    font-weight: 700;
+    background-color: transparent;
+    margin-right: 32px;
+    border: none;
+}
+
+.header__login .login {
+    width: 100px;
+    height: 48px;
+    color: #000;
+    font-size: 16px;
+    font-weight: 700;
+    border-radius: 40px;
+    border: none;
+}
+
+.main-body__content {
+    color: #fff;
+    font-weight: bold;
+    padding: 20px 10px;
+    font-size: 18px;
+    width: 100%;
+}
+
+.offer__scroll-container {
+    height: 64.4vh;
+    margin: 24px 0;
+    overflow-y: scroll;
+    overflow-x: hidden;
+}
+
+.offer__list-item {
+    display: grid;
+    justify-content: center;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+    grid-gap: 8px;
+    gap: 8px;
+    margin-bottom: 16px;
+}
+
+.cards {
+    position: relative;
+    width: 200px;
+    height: 300px;
+    overflow: hidden;
+    border-radius: 8px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background: linear-gradient(to top, #132516 , #1a1919);
+}
+
+.cards:hover {
+    background: linear-gradient(to top, #201323 , #1a1919);
+}
+
+.cards span {
+    padding: 16px;
+    position: absolute;
+    bottom: 0;
+    color: #b3b3b3;
+    font-size: 12px;
+    font-weight: 600;
+    line-height: 17px;
+}
+
+.offer__list-item img {
+    position: absolute;
+    top: 0;
+    height: auto;
+    width: 180px;
+    border-radius: 8px;
+    margin-top: 10px;
+}
+
+.offer__scroll-container::-webkit-scrollbar {
+    width: 0.3em;
+}
+
+.offer__scroll-container::-webkit-scrollbar-thumb {
+    background-color: #404040;
+    outline: 1px solid #000;
+}
