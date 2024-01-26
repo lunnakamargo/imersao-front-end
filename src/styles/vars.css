@@ -1,8 +1,12 @@
 :root{
     /* FONT */
-    --font-dm-sans: "DM Sans", sans-serif;
+    --font-dm-sans: "gil sans", sans-serif;
 
     /* COLORS */
     --bg-icon: #131313;
     --bg-arrow-color: rgba(0,0,0,7);
+    --text-base-dark: #000;
+    --text-base-light: #fff;
+    --text-sub: #a7a7a7;
+    --bg-top-bar: #61616142;
 }

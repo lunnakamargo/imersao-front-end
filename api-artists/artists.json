@@ -1,0 +1,53 @@
+{
+  "artists": [
+    {
+      "id": 1,
+      "name": "Alex Random",
+      "genre": "Rock",
+      "urlImg": "./src/assets/playlist/1.png"
+    },
+    {
+      "id": 2,
+      "name": "Morgan Rhythm",
+      "genre": "Pop",
+      "urlImg": "./src/assets/playlist/2.png"
+    },
+    {
+      "id": 3,
+      "name": "Cameron Echo",
+      "genre": "Hip Hop",
+      "urlImg": "./src/assets/playlist/3.png"
+    },
+    {
+      "id": 4,
+      "name": "Taylor Noise",
+      "genre": "Sertanejo",
+      "urlImg": "./src/assets/playlist/4.png"
+    },
+    {
+      "id": 5,
+      "name": "Dylan Harmony",
+      "genre": "Funk",
+      "urlImg": "./src/assets/playlist/5.png"
+    },
+    {
+      "id": 6,
+      "name": "Robin Song",
+      "genre": "Samba",
+      "urlImg": "./src/assets/playlist/6.png"
+    },
+    {
+      "id": 7,
+      "name": "Skyler Chord",
+      "genre": "MPB",
+      "urlImg": "./src/assets/playlist/7.png"
+    },
+    {
+      "id": 8,
+      "name": "Luna Estrela",
+      "genre": "Rock",
+      "urlImg": "./src/assets/playlist/8.png"
+    }
+  ]
+}
+

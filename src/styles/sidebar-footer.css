@@ -10,19 +10,15 @@ body {
     bottom: 0;
     padding: 12px;
     width: 300px;
-    overflow-y: auto;
-    height: calc(100vh - 80px);
 }
 
 .sidebar__navigation {
-    background-color: #121212;
+    background: linear-gradient(to top, #121212 , #090909);
     border-radius: 8px;
     padding: 6px 0 0 6px;
-    margin-top: 6px;
 }
 
 .sidebar__navigation__logo {
-    background: #121212;
     display: flex;
     border-radius: 8px;
     padding: 16px 0 0 16px;
@@ -49,16 +45,17 @@ body {
 }
 
 .sidebar__library {
-    background-color: #121212;
+    background: linear-gradient(to top, #121212 , #090909);
     border-radius: 8px;
     display: flex;
-    justify-content: space-between;
+    justify-content: start;
     flex-direction: column;
     padding: 4px 8px;
     color: #b3b3b3;
     font-weight: 600;
     font-size: 14px;
     margin-top: 10px;
+    height: 70vh;
 }
 
 .sidebar__library__content {
@@ -88,9 +85,10 @@ body {
 }
 
 .sidebar__library__content  .fa-plus {
-    background-color: #121212;
+    backgroun: linear-gradient(to top, #121212 , #090909);
     border-radius: 20px;
-    margin: 24px 10px;
+    margin: 14px 10px;
+    padding: 10px;
 }
 
 .section-playlist {
@@ -164,7 +162,7 @@ body {
     color: #fff;
     cursor: pointer;
     font-weight: bold;
-    width: 170px;
+    width: 110px;
     margin: 8px;
     padding: 8PX;
     border-radius: 20px;
@@ -229,4 +227,15 @@ footer .footer__content {
     border-radius: 30px;
 }
 
+#artistList {
+    display: none;
+}
 
+.sidebar__library::-webkit-scrollbar {
+    width: 0.3em;
+}
+  
+.sidebar__library::-webkit-scrollbar-thumb {
+  background-color: #404040;
+  outline: 1px solid #000;
+}
