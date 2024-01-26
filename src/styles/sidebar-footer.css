@@ -230,3 +230,12 @@ footer .footer__content {
 #artistList {
     display: none;
 }
+
+.sidebar__library::-webkit-scrollbar {
+    width: 0.3em;
+}
+  
+.sidebar__library::-webkit-scrollbar-thumb {
+  background-color: #404040;
+  outline: 1px solid #000;
+}

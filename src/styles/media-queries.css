@@ -1,5 +1,82 @@
-@media screen and (max-width: 1015px) {
+/* Desktops */
+@media screen and (max-width: 1800px) {
+    .offer__list-item {
+        grid-template-columns: 1fr 1fr 1fr 1fr 1fr ;
+    }
+}
+/* expecifico */
+@media screen and (max-width: 1510px) {
+    .offer__list-item {
+        grid-template-columns: 1fr 1fr 1fr 1fr;
+        width: fit-content
+    }
+}
+@media screen and (max-width: 1310px) {
+    .offer__list-item {
+        grid-template-columns: 1fr 1fr 1fr;
+        width: fit-content
+    }
+}
+/* Laptops/Desktops */
+@media screen and (max-width: 1200px) {
+    .offer__list-item {
+        grid-template-columns: 1fr 1fr 1fr;
+        width: fit-content
+    }
+}
+/* Tablets/Laptops pequenos */
+@media screen and (max-width: 1024px) {
     .offer__list-item {
         grid-template-columns: 1fr 1fr;
+        width: fit-content
+    }
+    .main-container {
+        width: fit-content;
+    }
+}
+/* Tablets */ 
+@media screen and (max-width: 768px) {
+    .offer__list-item {
+        grid-template-columns: 1fr;
+        width: fit-content
+    }
+    .main-container {
+        width: fit-content;
+    }
+}
+/* Dispositivos móveis maiores */
+@media screen and (max-width: 600px) {
+    .offer__list-item {
+        grid-template-columns: 1fr;
+        width: fit-content
+    }
+    .main-container {
+        width: fit-content;
+    }
+}
+/* Dispositivos móveis menores */
+@media screen and (max-width: 480px) {
+    .offer__list-item {
+        grid-template-columns: 1fr;
+        width: fit-content
+    }
+    .main-container {
+        width: fit-content;
+    }
+}
+/* expecifico altura*/
+@media screen and (max-height: 750px) {
+    .sidebar__library {
+        height: 57.5vh;
+        overflow: scroll;
+    }
+    body {
+        overflow: hidden;
+    }
+    .offer__scroll-container {
+        height: 52.5vh;
+    }
+    .main-body__content{
+        height: 60vh;
     }
 }
